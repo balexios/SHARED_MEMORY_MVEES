@@ -9,4 +9,4 @@ Userfaultfd is a pretty fast page-fault handler mechanism ... alternative to mpr
 
 ## Disadvantages
 1. We are not able to handle read accesses to mprotected(!PROT_READ) pages.
-2. We do not have any context for the read/write access, which we need
+2. We do not have any context for the read/write access, which we need.
