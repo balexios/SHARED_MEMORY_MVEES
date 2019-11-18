@@ -1,0 +1,43 @@
+http://man7.org/linux/man-pages/man2/userfaultfd.2.html
+http://man7.org/linux/man-pages/man2/ioctl_userfaultfd.2.html
+https://www.kernel.org/doc/Documentation/vm/userfaultfd.txt
+http://manpages.ubuntu.com/manpages/bionic/man2/ioctl_userfaultfd.2.html
+https://en.wikipedia.org/wiki/Demand_paging
+http://man7.org/linux/man-pages/man2/mmap.2.html
+https://cateee.net/lkddb/web-lkddb/MEM_SOFT_DIRTY.html
+https://www.kernel.org/doc/Documentation/vm/soft-dirty.txt
+https://lwn.net/Articles/636226/ (2015)
+https://lwn.net/Articles/718198/ (2017)
+https://lwn.net/Articles/787308/ (2019)
+https://lwn.net/Articles/777258/ (2019)
+https://git.kernel.org/pub/scm/linux/kernel/git/andrea/aa.git/
+https://stackoverflow.com/questions/12383900/does-mmap-really-copy-data-to-the-memory
+https://stackoverflow.com/questions/45972/mmap-vs-reading-blocks/6383253#6383253
+
+/* For examples */
+https://nwat.xyz/blog/2016/10/10/measuring-userfaultfd-page-fault-latency/
+http://man7.org/linux/man-pages/man2/userfaultfd.2.html
+https://www.cons.org/cracauer/cracauer-userfaultfd.html
+
+/* Stack Overflow */
+https://stackoverflow.com/questions/21068714/trap-all-accesses-to-an-address-range-linux
+
+/* Developing branch */
+// branch itself
+https://github.com/xzpeter/linux/tree/uffd-wp-merged
+// selftests
+https://github.com/xzpeter/linux/blob/77605b7130514cbde3d8d5d932086d2c838cf86d/tools/testing/selftests/vm/userfaultfd.c
+// guide
+https://github.com/xzpeter/linux/blob/ef176172cc26690823fa1dec8dbb5a60ed2d07dc/Documentation/admin-guide/mm/userfaultfd.rst
+
+
+/* Misc */
+https://stackoverflow.com/questions/13253498/segfault-when-invlpg-instruction-is-called
+https://stackoverflow.com/questions/37752664/how-to-use-invlpg-on-x86-64-architecture/37754060#37754060
+https://stackoverflow.com/questions/7005893/how-can-i-force-a-page-to-fault-even-if-it-is-already-in-the-tlb
+https://stackoverflow.com/questions/28816594/how-to-use-a-function-in-kernel-source/28816723
+https://stackoverflow.com/questions/10948930/does-a-page-fault-occur-whenever-we-have-a-segmentation-fault
+
+https://stackoverflow.com/questions/30922318/how-to-trap-memory-reads-and-writes-using-sigsegv
+https://stackoverflow.com/questions/21068714/trap-all-accesses-to-an-address-range-linux
+https://www.kernel.org/doc/html/v4.18/core-api/cachetlb.html
